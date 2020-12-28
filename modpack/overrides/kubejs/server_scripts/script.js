@@ -5,9 +5,6 @@ events.listen('recipes', event => {
   event.remove({output: 'kibe:angel_ring'})
   event.remove({output: 'kibe:chunk_loader'})
 
-  // Glitched Stuff Removal
-  event.remove({output: 'waystones:waystone'})
-
   // Nuke Removal
   event.remove({output: 'astromine:nuclear_warhead'})
 
