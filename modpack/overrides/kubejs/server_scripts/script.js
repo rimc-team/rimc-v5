@@ -5,6 +5,10 @@ events.listen('recipes', event => {
   event.remove({output: 'kibe:angel_ring'})
   event.remove({output: 'kibe:chunk_loader'})
 
+  // Slotlink cables
+  event.remove({output: 'slotlink:export_cable'})
+  event.remove({output: 'slotlink:import_cable'})
+
   // Nuke Removal
   event.remove({output: 'astromine:nuclear_warhead'})
 
