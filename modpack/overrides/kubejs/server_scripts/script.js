@@ -3,7 +3,6 @@ events.listen('recipes', event => {
   event.remove({output: 'kibe:glider_left_wing'})
   event.remove({output: 'kibe:glider_right_wing'})
   event.remove({output: 'kibe:angel_ring'})
-  event.remove({output: 'kibe:chunk_loader'})
 
   // Slotlink cables
   event.remove({output: 'slotlink:export_cable'})
